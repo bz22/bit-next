@@ -55,6 +55,7 @@ def get_user():
 @use_kwargs(user_schema)
 @marshal_with(user_schema)
 def update_user(**kwargs):
+    print(user_schema.validate())
     user = current_user
     # take in consideration the password
     password = kwargs.pop('password', None)
