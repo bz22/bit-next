@@ -30,7 +30,9 @@ npm run start
 
 In the backend folder, install all the dependacies with:
 ```
-pip install -r requirement.txt
+
+pip install -r requirements.txt
+
 ```
 
 Run the application with:
